@@ -1,4 +1,4 @@
-Subscriber Database Management System
+## Subscriber Database Management System
 
 A Java terminal application for managing subscriber records in MySQL. Sign in with an administrator account to create, search, update, and track subscribers from an interactive command-line menu.
 
