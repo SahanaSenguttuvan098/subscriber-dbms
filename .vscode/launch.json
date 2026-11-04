@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "inputs": [
+        {
+            "id": "dbPassword",
+            "type": "promptString",
+            "description": "MySQL database password",
+            "password": true
+        }
+    ],
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Subscriber",
+            "request": "launch",
+            "mainClass": "SubscriberApp",
+            "console": "integratedTerminal",
+            "env": {
+                "DB_PASSWORD": "${input:dbPassword}"
+            }
+        }
+    ]
+}

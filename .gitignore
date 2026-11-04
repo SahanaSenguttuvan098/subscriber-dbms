@@ -1,0 +1,14 @@
+# Compiled Java classes
+*.class
+
+# Local database exports and application exports
+customer_db_backup.sql
+subscribers.csv
+
+# Local credentials and IDE files
+.env
+.env.*
+!.env.example
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
